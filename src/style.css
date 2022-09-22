@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Newsreader:wght@300;400&family=PT+Serif&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Serif', serif;
+}
+
+/* font-family: 'Cairo', sans-serif;
+font-family: 'Newsreader', serif;
+font-family: 'PT Serif', serif; */
+
+.header{
+    width: 100%;
+    min-height: 100px;
+    margin: 0;
+    padding: 0;
+    background-color: #f5ba13;
+    color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 50px;
+    box-shadow: 5px 3px 15px -5px black;
+}
+
+.main-note{
+    width: 500px;
+    padding: 15px 10px 5px 10px;
+    margin: 20px auto;
+}
+
+form{
+    min-height: 80px;
+    color: #ecf0f1;
+    padding: 15px 10px 5px 10px;
+    box-shadow: 3px 5px 10px -5px black;
+    border-radius: 4px;
+    position: relative;
+}
+
+.main-note input{
+    width: 100%;
+    line-height: 30px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 1.5rem;
+    margin: 6px 0;
+    font-weight: bold;
+}
+
+.main-note textarea{
+    width: 100%;
+    line-height: 30px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 1rem;
+    margin: 6px 0;
+    overflow: hidden;
+}
+
+.btn{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: -22px;
+    left: 400px;
+    cursor: pointer;
+    background-color: #fff  !important;
+    border-radius: 50% !important;
+    box-shadow: 3px 5px 10px -5px black;
+    border: none;
+}
+
+.btn .plus{
+    font-size: 25px !important;
+    font-weight: 900;
+    color: #f4b400;
+    z-index: 222;
+    background: transparent;
+}
+
+.btn:hover{
+    background: #f4b400 !important;
+}
+
+.btn:hover .plus{
+    color: #fff;
+}
+
+.note{
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 3px 5px 10px -5px black;
+    width: 250px;
+    min-height: 100px;
+    padding: 10px;
+    margin: 20px;
+    float: left;
+    color: #4e4e4e;
+}
+
+.note h1{
+    font-size: 1em;
+    margin-bottom: 6px;
+}
+
+.note p{
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.note button{
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    box-shadow: 3px 3px 6px -3px black;
+    color: #f4b400;
+    cursor: pointer;
+}
+
+.delete{
+    width: 1.1em;
+    height: 1.1em;
+}
+
+.note button:hover{
+    background-color: #f5ba13;
+}
+
+.note button:hover .delete{
+    color: #fff;
+}
+
+footer{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 4px;
+    text-align: center;
+    background: cornsilk;
+}
+
